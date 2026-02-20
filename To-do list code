@@ -90,7 +90,7 @@ args) {
  return;
  }
  viewAllTasks();
- System.out.print("Enter task number to mark as done: ");
+ System.out.print("Enter Task Number to mark as done: ");
  String input = scanner.nextLine();
  try {
  int index = Integer.parseInt(input);
@@ -106,7 +106,7 @@ args) {
  System.out.println("Task marked as done: " + task.description);
  }
  } catch (NumberFormatException e) {
- System.out.println("Please enter a valid number.");
+ System.out.println("Please Enter a valid number.");
  }
  } private static void viewPendingTasks() {
  boolean found = false;
